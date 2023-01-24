@@ -1,5 +1,6 @@
-﻿using Exercicios.Math.BasicOp;
+﻿using Exercicios.Math;
+using Exercicios.Math.BasicOp;
 
-Operations operation = new Operations();
+Operations operations = new Operations();
 
-Console.WriteLine(operation.sum(10.8, 10));
+Console.WriteLine(operations.Div.Calculate(1,0));
