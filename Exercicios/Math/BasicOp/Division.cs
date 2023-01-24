@@ -11,7 +11,7 @@ namespace Exercicios.Math.BasicOp
         public double Calculate(double a, double b)
         {
             if (b == 0) {
-                Console.WriteLine("Não é possível fazer divisão por zero!");    
+                Console.WriteLine("It's impossible divide a number by zero!");    
                 return 0;
             }
             else
